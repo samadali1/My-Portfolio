@@ -8,7 +8,7 @@
       $('#mainNav').addClass('navbar-reduce');
     }
   })
-
+  
   $(window).on('load', function () {
     if ($('#preloader').length) {
       $('#preloader').delay(10).fadeOut('slow', function () {
